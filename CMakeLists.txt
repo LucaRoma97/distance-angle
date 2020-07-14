@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.0.2)
-project(distance-angle)
+project(distanceangle)
 
 ## Compile as C++11, supported in ROS Kinetic and newer
 # add_compile_options(-std=c++11)
@@ -212,6 +212,6 @@ include_directories(
 #target_link_libraries(distance_angle ${catkin_LIBRARIES})
 #add_dependencies(distance_angle distance_angle_generate_messages_cpp)
 
-add_executable(distance_angle1 src/distance_angle1.cpp)
-target_link_libraries(distance_angle1 ${catkin_LIBRARIES})
-add_dependencies(distance_angle1 distance_angle1_generate_messages_cpp)
+add_executable(distanceangle src/distance_angle.cpp)
+target_link_libraries(distanceangle ${catkin_LIBRARIES})
+add_dependencies(distanceangle distance_angle_generate_messages_cpp)
